@@ -15,42 +15,42 @@ sqa_criteria:
     repos:
       github.com/schroedinger-hat/certo git:
         commands:
-        - /usr/bin/env sh .sqa/script.pine_inspired_gull.sh
-        container: qc.acc_strawberry_zealous_nymph
+        - /usr/bin/env sh .sqa/script.incarnadine_tough_peacock.sh
+        container: qc.acc_indigo_reckless_stork
   QC.Doc:
     repos:
       github.com/schroedinger-hat/certo find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.fog_polite_kingfisher.sh
-        container: qc.doc_papaya_enthusiastic_ostrich
+        - /usr/bin/env sh .sqa/script.cornflower_joyful_wolf.sh
+        container: qc.doc_clementine_hardworking_groundhog
       github.com/schroedinger-hat/certo git:
         commands:
-        - /usr/bin/env sh .sqa/script.denim_alert_hummingbird.sh
-        container: qc.doc_silver_optimistic_porpoise
+        - /usr/bin/env sh .sqa/script.sepia_friendly_dragon.sh
+        container: qc.doc_alabaster_ardent_bat
       github.com/schroedinger-hat/certo markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.zinnia_perky_crow.sh
-        container: qc.doc_pineapple_loving_phoenix
+        - /usr/bin/env sh .sqa/script.sunset_decisive_snail.sh
+        container: qc.doc_goldenrod_sarcastic_quail
   QC.Lic:
     repos:
       github.com/schroedinger-hat/certo licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.reef_scrappy_cougar.sh
-        container: qc.lic_currant_bewildered_bat
+        - /usr/bin/env sh .sqa/script.navy_forgiving_hamster.sh
+        container: qc.lic_wave_industrious_flamingo
   QC.Sty:
     repos:
       github.com/schroedinger-hat/certo hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.clove_friendly_orangutan.sh
-        container: qc.sty_rosewater_industrious_starfish
+        - /usr/bin/env sh .sqa/script.lilac_industrious_mongoose.sh
+        container: qc.sty_magenta_empathetic_leopard
       github.com/schroedinger-hat/certo jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.tide_tolerant_jaguar.sh
-        container: qc.sty_flamingo_lucky_fox
+        - /usr/bin/env sh .sqa/script.fern_mature_dolphin.sh
+        container: qc.sty_cayenne_vigilant_kraken
   QC.Ver:
     repos:
       github.com/schroedinger-hat/certo get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.rose_rustic_groundhog.sh
-        container: qc.ver_ruby_affectionate_condor
+        - /usr/bin/env sh .sqa/script.seafoam_observant_impala.sh
+        container: qc.ver_bronze_tolerant_porcupine
 timeout: 5400
